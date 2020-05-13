@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ImportData", "ImportData.dtproj", "{DC01EE71-739E-4BFB-A75F-1D908CD39BB9}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAPZestaw7", "..\OLAPZestaw7\OLAPZestaw7.dwproj", "{5E61D097-B263-40FF-BF46-D370C8C4F7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC01EE71-739E-4BFB-A75F-1D908CD39BB9}.Development|Default.ActiveCfg = Development
+		{DC01EE71-739E-4BFB-A75F-1D908CD39BB9}.Development|Default.Build.0 = Development
+		{5E61D097-B263-40FF-BF46-D370C8C4F7E1}.Development|Default.ActiveCfg = Development
+		{5E61D097-B263-40FF-BF46-D370C8C4F7E1}.Development|Default.Build.0 = Development
+		{5E61D097-B263-40FF-BF46-D370C8C4F7E1}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CA1F50A-78C8-4EA4-A275-13AD71E9CDCF}
+	EndGlobalSection
+EndGlobal
