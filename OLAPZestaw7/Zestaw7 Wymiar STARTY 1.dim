@@ -1,0 +1,212 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2781c9b6-b098-44e9-b84b-0471e9fbf4a5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Zestaw7 Wymiar STARTY</ID>
+  <Name>Zestaw7 Wymiar STARTY</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1390" scrolltop="-6964" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5821" y="16595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="zestaw7_wymiar_STARTY" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_zestaw7_wymiar_STARTY" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1390</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6964</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a334e718-0f18-4897-b86d-9616af3181f6">
+    <DataSourceViewID>BAZA</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="cb7bf6ef-3a82-4637-afb2-e20fe89ad719">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1ad8de2a-cfc2-4c9e-b304-6db1c88a3f07">
+      <ID>Takeoff</ID>
+      <Name>Takeoff</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f788af59-6be8-460c-947b-893e31c2574c">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6ab0d08-c074-4111-9133-50e9e2989b36">
+            <TableID>dbo_zestaw7_wymiar_STARTY</TableID>
+            <ColumnID>takeoff</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d32d1e05-7c8f-42ff-a40d-a70345b5cc5a">
+          <AttributeID>Takeoff Hour</AttributeID>
+          <Name>Takeoff Hour</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1842d460-b207-4e65-8f48-369254f5030d">
+          <AttributeID>Takeoff Day</AttributeID>
+          <Name>Takeoff Day</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a2ea2707-e06a-4882-9ad5-7ab3b3545a05">
+          <AttributeID>Takeoff Week</AttributeID>
+          <Name>Takeoff Week</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b38ffcc0-fc7b-4ded-8854-1cb5b070d0d6">
+          <AttributeID>Takeoff Month</AttributeID>
+          <Name>Takeoff Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8f6239ab-ac79-478a-8fd8-5a039a4fc3e5">
+      <ID>Takeoff Hour</ID>
+      <Name>Takeoff Hour</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="efec3d81-44ca-49ba-862e-2aa7eb6623e5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d891d53-2287-43af-a841-93d87bc9c733">
+            <TableID>dbo_zestaw7_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_hour</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2251877e-46d6-4a60-818a-e91f0c2f95fe">
+      <ID>Takeoff Day</ID>
+      <Name>Takeoff Day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="74ad3f2b-cc22-4720-b965-6825bcb3e02c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3a26f042-ff0a-4724-bfa4-4861a436663d">
+            <TableID>dbo_zestaw7_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c97babbe-554d-4c38-8aaf-80b0c4f69a4c">
+      <ID>Takeoff Week</ID>
+      <Name>Takeoff Week</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b204e489-0edf-4644-8332-c360d65c9103">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="150de323-68f4-44d5-a5c2-70b9b869cba8">
+            <TableID>dbo_zestaw7_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_week</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1de356c9-b44f-42d9-8348-689b062f3343">
+      <ID>Takeoff Month</ID>
+      <Name>Takeoff Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ceca7cf7-49cd-471f-8251-c4ff32470d7a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49fbd787-ca57-41a0-9696-94728f73afe4">
+            <TableID>dbo_zestaw7_wymiar_STARTY</TableID>
+            <ColumnID>takeoff_month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c270b8a5-d435-4e73-9231-c25be5f398b9">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="9f934cbf-e125-4903-84ee-7e11dfaec37a">
+          <ID>Takeoff Month</ID>
+          <Name>Takeoff Month</Name>
+          <SourceAttributeID>Takeoff Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="442bfdfc-6b6f-4113-8186-db44ae07a822">
+          <ID>Takeoff Week</ID>
+          <Name>Takeoff Week</Name>
+          <SourceAttributeID>Takeoff Week</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="736b7796-5206-4a01-b5ba-e04319a7a96c">
+          <ID>Takeoff Day</ID>
+          <Name>Takeoff Day</Name>
+          <SourceAttributeID>Takeoff Day</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f01020c5-9412-4d6d-8181-7e9c75f50560">
+          <ID>Takeoff Hour</ID>
+          <Name>Takeoff Hour</Name>
+          <SourceAttributeID>Takeoff Hour</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

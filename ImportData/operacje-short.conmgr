@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="operacje-short"
+  DTS:DTSID="{ACE9303D-CA55-47B5-89F3-CD19D404A2D2}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x0022_"
+      DTS:CodePage="65001"
+      DTS:ConnectionString="C:\Users\Lenovo\Desktop\Hurtownie\Zestaw 7\tabele\ab_operacje_short.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="20"
+          DTS:TextQualified="True"
+          DTS:ObjectName="id"
+          DTS:DTSID="{3B1B5E85-B8B1-422B-872D-6C72DD5C70E7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="20"
+          DTS:TextQualified="True"
+          DTS:ObjectName="id_polaczenia"
+          DTS:DTSID="{A2202B62-F58C-4B5C-9364-8FB0B5FF9C3B}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="takeoff"
+          DTS:DTSID="{28BD4CD5-BF6D-47A6-911E-F01BCBB6FC4E}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="landing"
+          DTS:DTSID="{D34DDA3A-6E10-49F4-896D-6B2BFAA21ABC}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="occup"
+          DTS:DTSID="{2AC2C542-AF20-47F2-B6DB-CB61B564E0EF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:DataType="4"
+          DTS:TextQualified="True"
+          DTS:ObjectName="occup_pct"
+          DTS:DTSID="{0BA9E3C7-9294-4FD3-9EA4-0C4D250CC85B}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

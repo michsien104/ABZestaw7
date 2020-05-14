@@ -1,0 +1,207 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0ee7e66d-a3f7-4f2d-ac8f-77bb7b561b11" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BAZA</ID>
+  <Name>BAZA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>BAZA</DataSourceID>
+  <Schema>
+    <xs:schema id="BAZA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="BAZA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="19fa2348-8205-48bf-8746-8e43fc26106b">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_zestaw7_fakt_OPERACJE" msprop:design-time-name="933d4e4f-1eff-4f73-b4a8-a9cd7a688dcd" msprop:DbTableName="zestaw7_fakt_OPERACJE" msprop:FriendlyName="zestaw7_fakt_OPERACJE" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="bef9637a-9724-452a-bf1e-a73fc164ea1b" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:long" />
+                  <xs:element name="takeoff" msprop:design-time-name="09b00596-5bd1-46f7-8877-f67ef9eb7737" msprop:DbColumnName="takeoff" msprop:FriendlyName="takeoff" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="landing" msprop:design-time-name="f152c5d1-1d38-48be-8343-97f2d16835b5" msprop:DbColumnName="landing" msprop:FriendlyName="landing" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="src_iata_code" msprop:design-time-name="db00d881-9e0f-42f3-b644-85a7c639c18a" msprop:DbColumnName="src_iata_code" msprop:FriendlyName="src_iata_code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dst_iata_code" msprop:design-time-name="595840da-894f-466e-b566-ab5f952bd713" msprop:DbColumnName="dst_iata_code" msprop:FriendlyName="dst_iata_code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="occup" msprop:design-time-name="af682dbf-f668-433e-a54e-6bf9717ba0d0" msprop:DbColumnName="occup" msprop:FriendlyName="occup" type="xs:short" minOccurs="0" />
+                  <xs:element name="occup_pct" msprop:design-time-name="ed256a61-c2cb-4279-ae21-a9c52150a3a4" msprop:DbColumnName="occup_pct" msprop:FriendlyName="occup_pct" type="xs:float" minOccurs="0" />
+                  <xs:element name="international" msprop:design-time-name="844b091c-afbc-40f3-9b21-a7656d5c392f" msprop:DbColumnName="international" msprop:FriendlyName="international" type="xs:boolean" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_zestaw7_wymiar_LADOWANIA" msprop:design-time-name="1a215ea0-6495-4493-9863-943a892cde9b" msprop:DbTableName="zestaw7_wymiar_LADOWANIA" msprop:FriendlyName="zestaw7_wymiar_LADOWANIA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="landing" msprop:design-time-name="e2f7e877-aeec-4d1d-9a4d-7250d6c6cb8a" msprop:DbColumnName="landing" msprop:FriendlyName="landing" type="xs:dateTime" />
+                  <xs:element name="landing_hour" msprop:design-time-name="ea65d839-aa5e-4551-9459-4f4288fc461f" msprop:DbColumnName="landing_hour" msprop:FriendlyName="landing_hour" type="xs:int" minOccurs="0" />
+                  <xs:element name="landing_day" msprop:design-time-name="a356d219-ffc5-4583-ad21-5446f8aabb5b" msprop:DbColumnName="landing_day" msprop:FriendlyName="landing_day" type="xs:int" minOccurs="0" />
+                  <xs:element name="landing_week" msprop:design-time-name="bc4ce21b-d30c-4882-83c2-cf2445c0025b" msprop:DbColumnName="landing_week" msprop:FriendlyName="landing_week" type="xs:int" minOccurs="0" />
+                  <xs:element name="landing_month" msprop:design-time-name="66f06308-f7ed-4669-9c7a-fb955fea6af8" msprop:DbColumnName="landing_month" msprop:FriendlyName="landing_month" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_zestaw7_wymiar_LOTNISKA" msprop:design-time-name="d8b3584e-924e-45c1-86cf-0e062ae3efe4" msprop:DbTableName="zestaw7_wymiar_LOTNISKA" msprop:FriendlyName="zestaw7_wymiar_LOTNISKA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="airport_code_iata" msprop:design-time-name="d63fddde-34ba-4dc6-98f6-5fe08bd9851a" msprop:DbColumnName="airport_code_iata" msprop:FriendlyName="airport_code_iata">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="name" msprop:design-time-name="7ebd84dd-7df0-422f-bb14-d86874589c6d" msprop:DbColumnName="name" msprop:FriendlyName="name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="city" msprop:design-time-name="df5d162d-99a6-430e-b19c-bb3635691128" msprop:DbColumnName="city" msprop:FriendlyName="city" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="country" msprop:design-time-name="4c7cf04f-5129-41ba-8759-2ccf62b830a1" msprop:DbColumnName="country" msprop:FriendlyName="country" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="code_icao" msprop:design-time-name="a9831f61-9dc2-4a86-8c13-7f410e0f68e2" msprop:DbColumnName="code_icao" msprop:FriendlyName="code_icao" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="lat" msprop:design-time-name="c8fc6bb1-ade1-4bc7-8377-8ef6110353ff" msprop:DbColumnName="lat" msprop:FriendlyName="lat" type="xs:float" minOccurs="0" />
+                  <xs:element name="lon" msprop:design-time-name="daea644c-eafd-4073-b09c-0e84270288b0" msprop:DbColumnName="lon" msprop:FriendlyName="lon" type="xs:float" minOccurs="0" />
+                  <xs:element name="alt" msprop:design-time-name="6a21163b-9445-4058-bf3b-ca8591f17e2c" msprop:DbColumnName="alt" msprop:FriendlyName="alt" type="xs:float" minOccurs="0" />
+                  <xs:element name="offsetfromutc" msprop:design-time-name="3d8cb49e-68ae-4d9c-8311-1c95ba392501" msprop:DbColumnName="offsetfromutc" msprop:FriendlyName="offsetfromutc" type="xs:float" minOccurs="0" />
+                  <xs:element name="dst" msprop:design-time-name="f92bce87-fdad-4c06-b72d-3761b9de287f" msprop:DbColumnName="dst" msprop:FriendlyName="dst" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="timezone" msprop:design-time-name="a94711b3-0813-4e76-a9fa-48c5e568d1f3" msprop:DbColumnName="timezone" msprop:FriendlyName="timezone" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="type" msprop:design-time-name="05c2a0a7-f8d8-44d7-aa25-77e1c4cc0187" msprop:DbColumnName="type" msprop:FriendlyName="type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="source" msprop:design-time-name="22d241c6-f1a7-4355-b4ea-409ee2c4b35c" msprop:DbColumnName="source" msprop:FriendlyName="source" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_zestaw7_wymiar_STARTY" msprop:design-time-name="d029c0ea-211c-4500-908d-8901a04cf29b" msprop:DbTableName="zestaw7_wymiar_STARTY" msprop:FriendlyName="zestaw7_wymiar_STARTY" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="takeoff" msprop:design-time-name="78dfa3ab-9142-47e8-b06e-8fd385bfcdb1" msprop:DbColumnName="takeoff" msprop:FriendlyName="takeoff" type="xs:dateTime" />
+                  <xs:element name="takeoff_hour" msprop:design-time-name="6fca7360-c548-499a-8ebe-a95e69ad845b" msprop:DbColumnName="takeoff_hour" msprop:FriendlyName="takeoff_hour" type="xs:int" minOccurs="0" />
+                  <xs:element name="takeoff_day" msprop:design-time-name="0a4892a3-b73e-4ef5-8503-b7c1f05be9f3" msprop:DbColumnName="takeoff_day" msprop:FriendlyName="takeoff_day" type="xs:int" minOccurs="0" />
+                  <xs:element name="takeoff_week" msprop:design-time-name="36ae40f1-8beb-45f3-8ae5-33b2287b3738" msprop:DbColumnName="takeoff_week" msprop:FriendlyName="takeoff_week" type="xs:int" minOccurs="0" />
+                  <xs:element name="takeoff_month" msprop:design-time-name="adb881fb-9c73-42c9-ae05-45c2b3246afd" msprop:DbColumnName="takeoff_month" msprop:FriendlyName="takeoff_month" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_zestaw7_fakt_OPERACJE" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_zestaw7_wymiar_LADOWANIA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_zestaw7_wymiar_LADOWANIA" />
+          <xs:field xpath="landing" />
+        </xs:unique>
+        <xs:unique name="dbo_zestaw7_wymiar_LOTNISKA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_zestaw7_wymiar_LOTNISKA" />
+          <xs:field xpath="airport_code_iata" />
+        </xs:unique>
+        <xs:unique name="dbo_zestaw7_wymiar_STARTY_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_zestaw7_wymiar_STARTY" />
+          <xs:field xpath="takeoff" />
+        </xs:unique>
+        <xs:keyref name="FK_takeoff_id" refer="dbo_zestaw7_wymiar_STARTY_Constraint1">
+          <xs:selector xpath=".//dbo_zestaw7_fakt_OPERACJE" />
+          <xs:field xpath="takeoff" />
+        </xs:keyref>
+        <xs:keyref name="FK_src_airport_IATA" refer="dbo_zestaw7_wymiar_LOTNISKA_Constraint1">
+          <xs:selector xpath=".//dbo_zestaw7_fakt_OPERACJE" />
+          <xs:field xpath="src_iata_code" />
+        </xs:keyref>
+        <xs:keyref name="FK_dst_airport_IATA" refer="dbo_zestaw7_wymiar_LOTNISKA_Constraint1">
+          <xs:selector xpath=".//dbo_zestaw7_fakt_OPERACJE" />
+          <xs:field xpath="dst_iata_code" />
+        </xs:keyref>
+        <xs:keyref name="FK_landing_id" refer="dbo_zestaw7_wymiar_LADOWANIA_Constraint1">
+          <xs:selector xpath=".//dbo_zestaw7_fakt_OPERACJE" />
+          <xs:field xpath="landing" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <BAZA xmlns="" />
+  </Schema>
+</DataSourceView>

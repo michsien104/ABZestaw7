@@ -6,10 +6,67 @@
     <Name>OLAPZestaw7.database</Name>
     <FullPath>OLAPZestaw7.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>BAZA.cube</Name>
+      <FullPath>BAZA.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BAZA.partitions</Name>
+          <FullPath>BAZA.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Zestaw7 Wymiar LADOWANIA.dim</Name>
+      <FullPath>Zestaw7 Wymiar LADOWANIA.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Zestaw7 Wymiar LOTNISKA 1.dim</Name>
+      <FullPath>Zestaw7 Wymiar LOTNISKA 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Zestaw7 Wymiar STARTY 1.dim</Name>
+      <FullPath>Zestaw7 Wymiar STARTY 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Zestaw7 Fakt OPERACJE.dim</Name>
+      <FullPath>Zestaw7 Fakt OPERACJE.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>BAZA.ds</Name>
+      <FullPath>BAZA.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>BAZA.dsv</Name>
+      <FullPath>BAZA.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>BAZA</Id>
+            <Name>BAZA</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LENOVO-PC\SIENMICH;Integrated Security=SSPI;Initial Catalog=BAZA</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>BAZA</Id>
+            <Name>BAZA</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
