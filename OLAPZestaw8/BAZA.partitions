@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7c1f15d5-262e-406e-a289-8d133de7713d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BAZA</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Zestaw8 Wymiar STARTY</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a91a7fa6-cff4-4f55-b111-cbd282d6f169">
+          <ID>Zestaw8 Wymiar STARTY</ID>
+          <Name>Zestaw8 Wymiar STARTY</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b54829a7-e782-4817-a2bf-df2e276c3099">
+            <DataSourceViewID>BAZA</DataSourceViewID>
+            <TableID>dbo_zestaw8_wymiar_STARTY</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Zestaw8 Wymiar LOTNISKA</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="cd7aeaad-5667-4ab6-aecf-536adbe62945">
+          <ID>Zestaw8 Wymiar LOTNISKA</ID>
+          <Name>Zestaw8 Wymiar LOTNISKA</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="467d6c0d-29f2-46b3-a32f-f99ff6602410">
+            <DataSourceViewID>BAZA</DataSourceViewID>
+            <TableID>dbo_zestaw8_wymiar_LOTNISKA</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Zestaw8 Wymiar LADOWANIA</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1d1b675c-7f67-4775-aada-08a6a24b27bf">
+          <ID>Zestaw8 Wymiar LADOWANIA</ID>
+          <Name>Zestaw8 Wymiar LADOWANIA</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1757a9e1-f682-4b4c-b78b-37eabcecaf5d">
+            <DataSourceViewID>BAZA</DataSourceViewID>
+            <TableID>dbo_zestaw8_wymiar_LADOWANIA</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Zestaw8 Fakt OPERACJE</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1a4c9878-837d-414d-864e-3a4cb5867ab2">
+          <ID>Zestaw8 Fakt OPERACJE</ID>
+          <Name>Zestaw8 Fakt OPERACJE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="63860e56-0183-4291-84c0-08cd8869de93">
+            <DataSourceViewID>BAZA</DataSourceViewID>
+            <TableID>dbo_zestaw8_fakt_OPERACJE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

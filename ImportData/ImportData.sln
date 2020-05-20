@@ -7,6 +7,8 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ImportData", "ImportData.dt
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAPZestaw7", "..\OLAPZestaw7\OLAPZestaw7.dwproj", "{5E61D097-B263-40FF-BF46-D370C8C4F7E1}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAPZestaw8", "..\OLAPZestaw8\OLAPZestaw8.dwproj", "{74B65C4E-802F-4DB0-94C3-B2A2D1A99F64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -17,6 +19,9 @@ Global
 		{5E61D097-B263-40FF-BF46-D370C8C4F7E1}.Development|Default.ActiveCfg = Development
 		{5E61D097-B263-40FF-BF46-D370C8C4F7E1}.Development|Default.Build.0 = Development
 		{5E61D097-B263-40FF-BF46-D370C8C4F7E1}.Development|Default.Deploy.0 = Development
+		{74B65C4E-802F-4DB0-94C3-B2A2D1A99F64}.Development|Default.ActiveCfg = Development
+		{74B65C4E-802F-4DB0-94C3-B2A2D1A99F64}.Development|Default.Build.0 = Development
+		{74B65C4E-802F-4DB0-94C3-B2A2D1A99F64}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
